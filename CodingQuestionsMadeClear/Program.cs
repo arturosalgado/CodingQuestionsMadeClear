@@ -1,5 +1,10 @@
 ﻿
-// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+using CodingQuestionsMadeClear.IsUnique;
 
-Console.WriteLine(StringCompress.compress("aabccccca"));
+
+
+Console.WriteLine(IsUnique.check("ava"));
+
+Console.WriteLine(IsUnique.check("abc"));
+
+Console.WriteLine(IsUnique.isUniqueHash("abc"));
